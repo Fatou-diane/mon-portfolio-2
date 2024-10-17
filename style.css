@@ -1,0 +1,90 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    height: 100vh;
+    background-color: #ffffff;
+    color: #0B2F9A;
+}
+
+.content {
+    flex: 1;
+}
+
+h1 {
+    font-size: 3rem;
+    line-height: 1.2;
+}
+
+h1 span {
+    color: #0B2F9A;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    color: black;
+}
+
+.cv-btn {
+    margin-top: 30px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #0B2F9A;
+    background-color: white;
+    border: 2px solid #0B2F9A;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cv-btn:hover {
+    background-color: #0B2F9A;
+    color: white;
+}
+
+.image {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.image img {
+    width: 400px;
+    height: auto;
+    object-fit: contain;
+}
+
+.socials {
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    text-align: center;
+}
+
+.socials p {
+    font-size: 0.8rem;
+    color: #000;
+}
+
+.icons a {
+    margin: 0 10px;
+    font-size: 1.5rem;
+    color: #0B2F9A;
+    text-decoration: none;
+}
+
+.icons a:hover {
+    color: #555;
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barre de Navigation Bootstrap</title>
+    <!-- Lien vers Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Couleur de fond de la barre de navigation */
+        .navbar {
+            background-color: rgb(5, 5, 157); /* Arrière-plan bleu */
+        }
+
+        /* Couleur des liens de navigation */
+        .navbar .nav-link {
+            color: white; /* Couleur des liens */
+            transition: color 0.3s ease; /* Transition douce sur la couleur */
+        }
+
+        /* Effet au survol des liens de navigation */
+        .navbar .nav-link:hover {
+            color: rgb(68, 181, 246); /* Change la couleur au survol */
+            text-decoration: underline; /* Souligne le lien au survol */
+        }
+
+        /* Style du logo */
+        .navbar-brand img {
+            height: 50px; /* Ajuste la taille du logo */
+        }
+    </style>
+</head>
+<body>
+
+<!-- Barre de navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid">
+        <!-- Logo -->
+        <a class="navbar-brand" href="#">
+            <img src="Group 1.png" alt="Logo" height="300" width="100">
+        </a>
+
+        <!-- Bouton pour mobile -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Liens de navigation -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active px-lg-4" aria-current="page" href="#">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link px-lg-4" href="#">À propos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link px-lg-4" href="#">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link px-lg-4" href="#">Competence</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link px-lg-4" href="#">contact</a>
+              </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<body>
+    <section class="hero-section">
+        <div class="content">
+            <h1>BONJOUR <br> JE SUIS <span>FATOU DIANE</span></h1>
+            <h3>UNE REFERENTE DIGITAL</h3>
+            <button class="cv-btn">VOIR MON CV</button>
+        </div>
+        <div class="image">
+            <img src="./0G6A9952-removebg-preview.png" alt="Fatou Diane">
+        </div>
+        <div class="socials">
+            <p>MES RÉSEAUX SOCIAUX</p>
+            <div class="icons">
+                <!-- Add icons for social media (use Font Awesome for example) -->
+                <i class="bi bi-facebook"></i> <!-- Icône Facebook -->
+                <i class="bi bi-twitter"></i>  <!-- Icône Twitter -->
+                <i class="bi bi-linkedin"></i> <!-- Icône LinkedIn -->
+                <a class="icon-link icon-link-hover" href="#">
+                    Icon link
+                    <svg class="bi" aria-hidden="true"><use xlink:href="#arrow-right"></use></svg>
+                  </a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
+
+<!-- Lien vers Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
